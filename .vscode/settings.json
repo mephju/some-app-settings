@@ -1,0 +1,414 @@
+{
+  // "editor.guides.highlightActiveIndentation": false,
+  "editor.guides.highlightActiveBracketPair": false,
+  "editor.bracketPairColorization.enabled": false,
+  "explorer.excludeGitIgnore": true,
+  "typescript.preferences.autoImportFileExcludePatterns": [],
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "typescript.preferences.useAliasesForRenames": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "j"
+      ],
+      "after": [
+        "g",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "k"
+      ],
+      "after": [
+        "g",
+        "k"
+      ]
+    }
+  ],
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "editor.mouseWheelZoom": false,
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "'Ubuntu Mono', 'monospace', monospace",
+  // editor.tab
+  "window.titleBarStyle": "custom",
+  // "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/vi",
+  "editor.linkedEditing": true,
+  // "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-k>": false,
+    "<C-p>": false,
+    "<C-d>": false,
+    "<C-a>": false,
+    "<C-s>": false,
+    "<C-w>": false,
+    "<C-z>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-n>": false,
+    "<C-f>": false,
+    "<C-b>": false,
+    "<C-j>": false,
+    "<C-/>": false,
+    "<C-x>": false,
+    "<C-pageup>": false,
+    "<C-pagedown>": false,
+    "<C-shift-z>": false
+  },
+  "keyboard.dispatch": "keyCode",
+  "workbench.activityBar.iconClickBehavior": "toggle",
+  "editor.tabSize": 2,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "editor.fontSize": 16,
+  "files.insertFinalNewline": true,
+  "editor.lineHeight": 1.55,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.tsserver.maxTsServerMemory": 1000,
+  "workbench.editor.tabSizingFixedMaxWidth": 260,
+  "workbench.editor.tabSizingFixedMinWidth": 130,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.customGlyphs": false,
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.enableImages": false,
+  "editor.rulers": [
+    80
+  ],
+  "editor.lineDecorationsWidth": 15,
+  "editor.folding": false,
+  // "editor.glyphMargin": false,
+  // "editor.lineNumbers": "off",
+  "editor.lineNumbers": "relative",
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "popupClassName",
+    "bodyClassName",
+    "rowClassName",
+    "buttonClassName",
+    "footerClassName",
+    "headerClassName",
+    "toClassName",
+    "borderClassName",
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "toClassName\\(([^)]*)\\)",
+      "'([^']*)'"
+    ],
+    [
+      "cva\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "cn\\(([^)]*)\\)",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
+  ],
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  // "typescript.tsdk": "./node_modules/typescript/bin/tsserver",
+  // "typescript.format.semicolons": "remove",
+  // "[typescriptreact]": {
+  //     "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  // "[typescript]": {
+  //     "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  "typescript.experimental.aiCodeActions": {
+    // "addNameToNamelessParameter": false
+    // "missingFunctionDeclaration": false
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // "extensions.experimental.affinity": {
+  //     "asvetliakov.vscode-neovim": 1
+  // },
+  "redhat.telemetry.enabled": false,
+  "terminal.external.linuxExec": "/usr/bin/gnome-terminal",
+  "terminal.explorerKind": "both",
+  "terminal.integrated.env.linux": {
+    "GTK_PATH": ""
+  },
+  "files.trimTrailingWhitespace": true,
+  // "[javascript]": {
+  //     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  // },
+  "[markdown]": {
+    "editor.defaultFormatter": "vscode.markdown-language-features",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "workbench.sideBar.location": "right",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "workbench.settings.applyToAllProfiles": [
+    "workbench.activityBar.location"
+  ],
+  "workbench.activityBar.location": "top",
+  "files.associations": {
+    "*.ts": "typescript"
+  },
+  // "editor.guides.bracketPairs": true, // seems to override indentguides too
+  // "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveIndentation": true,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#ffffff0f",
+    // active
+    // "editorIndentGuide.activeBackground1": "#57b4a7",
+    // "editorIndentGuide.activeBackground2": "#57b4a7",
+    // "editorIndentGuide.activeBackground3": "#57b4a7",
+    // "editorIndentGuide.activeBackground4": "#57b4a7",
+    // "editorIndentGuide.activeBackground5": "#57b4a7",
+    // "editorIndentGuide.activeBackground6": "#57b4a7",
+    // non-active indent guide colors
+    // "editorIndentGuide.background1": "#777",
+    // "editorIndentGuide.background2": "#777",
+    // "editorIndentGuide.background3": "#777",
+    // "editorIndentGuide.background4": "#777",
+    // "editorIndentGuide.background5": "#777",
+    // "editorIndentGuide.background6": "#777",
+    "[NumberOne Color Theme]": {
+      "editor.background": "#343434",
+      "sideBar.background": "#2a2a2a",
+      "editorIndentGuide.activeBackground1": "#fff7",
+      "editorIndentGuide.activeBackground2": "#fff7",
+      "editorIndentGuide.activeBackground3": "#fff7",
+      "editorIndentGuide.activeBackground4": "#fff7",
+      "editorIndentGuide.background1": "#fff2",
+      "editorIndentGuide.background2": "#fff2",
+      "editorIndentGuide.background3": "#fff2",
+      "editorIndentGuide.background4": "#fff2"
+      // "editor.background": "#"
+    },
+    "[GitHub 2019]": {
+      "activityBar.background": "#dbeee9",
+      "activityBar.foreground": "#444",
+      "activityBar.activeBackground": "#c6e0da",
+      "activityBar.activeBorder": "#57b4a7",
+      "activityBar.inactiveForeground": "#666",
+      "statusBar.background": "#156c51",
+      "sideBar.background": "#f0fffb",
+      "editor.background": "#fff"
+    },
+    "[GitHub Bold Theme]": {
+      "statusBar.background": "#680028",
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[NumberOne Color Theme]": {
+      "comments": "#777",
+      "types": "#eee",
+      // "variables": "#FF0000",
+      "textMateRules": [
+        {
+          "scope": "constant.language.boolean.true",
+          "settings": {
+            "foreground": "#fff",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "storage.modifier",
+          "settings": {
+            "foreground": "#fff",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "meta.brace.round.tsx",
+          "settings": {
+            // "fontStyle": "bold",
+            "foreground": "#fde047"
+          }
+        },
+        {
+          "scope": "entity.name.function",
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#eee"
+          }
+        },
+        {
+          "scope": "keyword",
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#67e8f9"
+          }
+        },
+        {
+          "scope": "storage.type",
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#67e8f9"
+          }
+        },
+        {
+          "scope": "storage.modifier.async",
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#67e8f9"
+          }
+        },
+        {
+          "scope": "variable.parameter",
+          "settings": {
+            "fontStyle": "", // reset
+            // "foreground": "#2dd4bf"
+            // "foreground": "#a3e635"
+            "foreground": "#eee"
+          }
+        },
+        {
+          "scope": "entity.other.attribute-name",
+          "settings": {
+            // "fontStyle": "bold",
+            // "foreground": "#2dd4bf"
+            // "foreground": "#a3e635"
+            "foreground": "#f43f5e"
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#67e8f9"
+          }
+        },
+        {
+          "scope": "meta.block",
+          "settings": {
+            "foreground": "#eee"
+          }
+        },
+        {
+          "scope": "punctuation",
+          "settings": {
+            "foreground": "#fde047",
+            // "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "punctuation.accessor",
+          "settings": {
+            "foreground": "#fff",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "punctuation.definition.string.begin",
+          "settings": {
+            "foreground": "#67e8f9"
+            // "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "punctuation.definition.string.end",
+          "settings": {
+            "foreground": "#67e8f9"
+          }
+        },
+        {
+          "scope": "entity.name.tag",
+          "settings": {
+            "foreground": "#ddd",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "punctuation.definition.tag.begin",
+          "settings": {
+            "foreground": "#fff",
+          }
+        },
+        {
+          "scope": "punctuation.definition.tag.end",
+          "settings": {
+            "foreground": "#fff",
+          }
+        }
+      ]
+    },
+    "[GitHub Bold Theme]": {
+      "keywords": "#2C001E",
+      // "variables": "#2C001E",
+      // "functions": "#77216F",
+      "textMateRules": [
+        {
+          "scope": "keyword.operator",
+          "settings": {
+            // "foreground": "#333"
+          }
+        },
+        { // html tags
+          "scope": "entity.name.tag",
+          "settings": {
+            // "foreground": "#000",
+            // "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "entity.name.type",
+          "settings": {
+            // "foreground": "#2d0075"
+          }
+        }
+      ]
+      // "types": "#E95420"
+    }
+  },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "denoland.vscode-deno"
+  // },
+  "window.customTitleBarVisibility": "auto",
+  //
+  "editor.formatOnSave": true,
+  "eslint.run": "onSave",
+  // "eslint.workingDirectories": [
+  //   "apps/main"
+  // ],
+  // "eslint.validate": [
+  //   "typescript",
+  //   "typescriptreact"
+  // ],
+  // "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  //
+  "editor.stickyScroll.enabled": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "editor.defaultColorDecorators": true,
+  "terminal.integrated.fontSize": 15,
+  "workbench.statusBar.visible": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
+  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+  "workbench.colorTheme": "NumberOne Color Theme",
+  "animations.Install-Method": "Apc Customize UI++",
+}
