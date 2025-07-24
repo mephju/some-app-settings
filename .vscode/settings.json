@@ -1,9 +1,15 @@
 {
   // "editor.guides.highlightActiveIndentation": false,
+  "window.title": " ",
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "off",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
   "editor.guides.highlightActiveBracketPair": false,
   "editor.bracketPairColorization.enabled": false,
   "explorer.excludeGitIgnore": true,
-  "typescript.preferences.autoImportFileExcludePatterns": [],
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "app/components/ui/**/*"
+  ],
   "typescript.preferences.includePackageJsonAutoImports": "off",
   "typescript.preferences.useAliasesForRenames": false,
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -45,8 +51,6 @@
   "security.workspace.trust.untrustedFiles": "open",
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'Ubuntu Mono', 'monospace', monospace",
-  // editor.tab
-  "window.titleBarStyle": "custom",
   // "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/vi",
   "editor.linkedEditing": true,
   // "vim.useCtrlKeys": true,
@@ -75,7 +79,7 @@
   "workbench.activityBar.iconClickBehavior": "toggle",
   "editor.tabSize": 2,
   "workbench.editor.pinnedTabSizing": "compact",
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "files.insertFinalNewline": true,
   "editor.lineHeight": 1.55,
   "typescript.disableAutomaticTypeAcquisition": true,
@@ -156,7 +160,7 @@
   //     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   // },
   "[markdown]": {
-    "editor.defaultFormatter": "vscode.markdown-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -183,6 +187,8 @@
   // "editor.guides.bracketPairsHorizontal": "active",
   "editor.guides.highlightActiveIndentation": true,
   "workbench.colorCustomizations": {
+    "tab.activeBorderTop": "#21c2ce",
+    "tab.activeBorder": "#21c2ce",
     "editor.lineHighlightBackground": "#ffffff0f",
     // active
     // "editorIndentGuide.activeBackground1": "#57b4a7",
@@ -386,10 +392,6 @@
       // "types": "#E95420"
     }
   },
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "denoland.vscode-deno"
-  // },
-  "window.customTitleBarVisibility": "auto",
   //
   "editor.formatOnSave": true,
   "eslint.run": "onSave",
@@ -406,13 +408,42 @@
   },
   //
   "editor.stickyScroll.enabled": false,
-  "prisma.showPrismaDataPlatformNotification": false,
-  "editor.defaultColorDecorators": true,
-  "terminal.integrated.fontSize": 15,
-  "workbench.statusBar.visible": false,
+  "editor.defaultColorDecorators": "auto",
+  "terminal.integrated.fontSize": 14,
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "javascript.preferences.jsxAttributeCompletionStyle": "braces",
   "typescript.preferences.jsxAttributeCompletionStyle": "braces",
   "workbench.colorTheme": "NumberOne Color Theme",
-  "animations.Install-Method": "Apc Customize UI++",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "auto-correct.dictionary": [
+    {
+      "languages": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+      ],
+      "words": {
+        "backgorund": "background",
+        "cosnt": "const",
+      }
+    }
+  ],
+  "codeium.enableCodeLens": false,
+  "codeium.enableConfig": {
+    "*": true,
+    "prisma": true
+  },
+  "zenMode.showTabs": "none",
+  "window.customTitleBarVisibility": "auto",
+  "github.copilot.chat.languageContext.typescript.enabled": true,
+  "github.copilot.chat.completionContext.typescript.mode": "on",
+  "docker.extension.enableComposeLanguageServer": false
 }
